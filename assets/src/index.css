@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+canvas {
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    border: 2px solid #fffa2f;
+    vertical-align: middle;
+}
+
+aside {
+    display: inline-block;
+    font-size: 20px;
+    color: aquamarine;
+    text-shadow: 0 0 20px aquamarine, 0 0 40px white;
+}
+
+input[type=number], input[type=button] {
+
+    height: 50px;
+    outline: 0 none;
+    border: 0 none;
+}
+
+input[type=number] {
+    width: 110px;
+    padding-left: 10px;
+    border: 2px solid #19dcff;
+    box-sizing: border-box;
+    margin-left: 5px;
+    overflow: auto;
+}
+
+input[type=number]::-webkit-input-placeholder {
+    color: #770400;
+}
+
+input[type=button] {
+    width: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 33.33% 33.33%, gold, black);
+    box-shadow: 2px 2px 10px #000;
+}
+
+#start {
+    width: 100px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ba97ff 33%, #ffc0f0 66%, #fffd68);
+    box-shadow: 0 0 20px #000;
+}
